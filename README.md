@@ -161,12 +161,12 @@ curl -X POST "http://localhost:8000/v1/chat/completions" \
 
 ### Supported Models
 
-The proxy supports these Groq models out of the box:
-- `groq/llama-3.3-70b-versatile`
-- `groq/llama-3.1-8b-instant`
-- `groq/deepseek-r1-distill-llama-70b`
-- `groq/meta-llama/llama-4-maverick-17b-128e-instruct`
-- `groq/meta-llama/llama-4-scout-17b-16e-instruct`
+The proxy supports any Groq models out of the box:
+- `llama-3.1-8b-instant`
+- `llama-3.3-70b-versatile`
+- `meta-llama/llama-4-scout-17b-16e-instruct`
+- `meta-llama/llama-4-maverick-17b-128e-instruct`
+- Full list of [Groq models here](https://console.groq.com/docs/models) 
 
 ## Customization
 
