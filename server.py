@@ -54,17 +54,29 @@ async def list_models():
                 "owned_by": "groq"
             },
             {
-                "id": "groq/llama-3.1-70b-versatile", 
+                "id": "groq/llama-3.1-8b-instant", 
                 "object": "model",
                 "created": 1234567890,
                 "owned_by": "groq"
             },
             {
-                "id": "groq/mixtral-8x7b-32768",
+                "id": "groq/deepseek-r1-distill-llama-70b",
                 "object": "model", 
                 "created": 1234567890,
                 "owned_by": "groq"
-            }
+            },
+            {
+                "id": "groq/meta-llama/llama-4-maverick-17b-128e-instruct",
+                "object": "model", 
+                "created": 1234567890,
+                "owned_by": "groq"
+            },
+            {
+                "id": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
+                "object": "model", 
+                "created": 1234567890,
+                "owned_by": "groq"
+            },
         ]
     }
 
